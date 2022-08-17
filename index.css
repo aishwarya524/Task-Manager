@@ -1,0 +1,75 @@
+.container{
+    padding: 0;
+    margin: 20px auto;
+}
+
+.outer-container{
+    height: 100vh;
+}
+
+.col-header{
+    text-align: center;
+    border: 2px black solid;
+    margin: 10px 10px 0px 10px;
+    background-color: black;
+    color: white;
+}
+
+.outer-container .col-md-4{
+    padding: 0px;
+}
+
+.todo-section{
+    min-height: 100vh;
+    margin: 0px 10px;
+    background-color: rgb(216, 211, 211);
+    padding: 5%;
+}
+
+.col-heading{
+    text-align: center;
+    padding: 5%;
+    font-size: xx-large;
+}
+
+.to-do-card{
+    background-color: rgb(231, 238, 238) !important;
+    border: 2px black;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 0px 5px 30px 5px;
+}
+
+.card-header{
+    background-color: rgb(7, 10, 10) !important;
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    overflow: hidden;
+}
+
+.main-btn-outer{
+    width: 100%;
+    text-align: center;
+}
+
+.main-btn-outer .btn-lg{
+    background-color: rgb(39, 48, 45);
+    color: rgb(241, 235, 235);
+    border-color: black;
+}
+
+.main-btn-outer .btn-lg:hover{
+    background-color: aquamarine;
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+
+.to-do-card .btn-danger{
+    /* width: -webkit-fill-available; */
+    float: right;
+}
+
+.form-select{
+    margin: 5% 0% 0% 0%;
+}
